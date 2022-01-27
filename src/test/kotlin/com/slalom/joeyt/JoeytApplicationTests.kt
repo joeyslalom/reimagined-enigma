@@ -14,6 +14,6 @@ class JoeytApplicationTests {
 	@Test
 	fun shouldReturn3Cars() {
 		val controller = CarController()
-		assertEquals(controller.cars().length(), 3)
+		assertEquals(controller.cars().size(), 3)
 	}
 }
