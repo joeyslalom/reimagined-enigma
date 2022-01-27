@@ -1,5 +1,8 @@
 package com.slalom.joeyt
 
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RestController
+
 data class Car(val model: String, val make: String)
 
 @RestController
