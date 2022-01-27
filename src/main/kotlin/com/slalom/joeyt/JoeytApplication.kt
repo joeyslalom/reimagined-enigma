@@ -8,4 +8,5 @@ class JoeytApplication
 
 fun main(args: Array<String>) {
 	runApplication<JoeytApplication>(*args)
+	TRASH
 }
